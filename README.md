@@ -11,7 +11,7 @@ Sample blog made with VueJS Routing, Express and MongoDB.
 
 ## Note legali
 
-This project is licensed under the MIT License - see the [LICENSE.md]() file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/superserio/Vue-Sample-Blog/blob/master/LICENSE) file for details
 
  ## Authors
  
