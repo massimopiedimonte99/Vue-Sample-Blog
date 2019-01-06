@@ -1,0 +1,60 @@
+$main-theme: #e3e3e3;
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	border: .5px solid $main-theme;
+	width: 60%;
+	margin: 50px auto;
+	display: block;
+}
+
+.main {
+  h3, h2 {
+  	text-align: center;
+  }
+  .main-section {
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 20%;
+      border: 10px solid $main-theme;
+      padding: 2px;
+    }
+    p {
+			width: 80%;
+			margin: 20px auto;
+			text-align: center;
+		}
+  }
+    form {
+      margin-top: 30px;
+      input {
+        display: block;
+        border: none;
+        border-bottom: 2px solid $main-theme;
+        margin: 30px auto;
+        padding: 10px;
+        font-size: 13pt;
+        outline: none;
+        &:focus {
+          border-color: #a3a3a3;
+        }
+      }
+  }
+  
+	input[type="submit"], button {
+		width: 30%;
+		display: block;
+		background: none;
+		border: 2px solid $main-theme;
+		color: #3e3e3e;
+		cursor: pointer;
+		&:hover {
+			background-color: $main-theme;
+		}
+	}
+}
